@@ -3,6 +3,7 @@ import { Row } from 'antd'
 import React from 'react'
 import Avatar from './components/Avatar'
 import NameJobsDescription from './components/NameJobsDescription'
+import WorkExperiences from './components/WorkExperiences'
 
 export default function Resume() {
   return (
@@ -11,6 +12,11 @@ export default function Resume() {
         <Avatar />
         <NameJobsDescription />
       </Row>
+      <hr />
+      <Row className="flex-1">
+        <WorkExperiences />
+      </Row>
+      <hr />
     </Content>
   )
 }

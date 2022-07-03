@@ -1,0 +1,98 @@
+{
+  "result": {
+    "biograph" : {
+      "fullName" : "Ari Abdurrahman Ghufron",
+      "alias": "An. Ari",
+      "role" : "FullStack Developer | IT Enthusiast",
+      "aboutMe" : "Hi, i`am Ari a junior front-end developer from Tegal, Indonesia. I build web apps and mobile apps that provide intuitive and pixel-perfect user interfaces and familiar with React. I`am have a dream be CEO or build startup",
+      "address" : "Tegal, Central Java, Indonesia"
+    },
+    "techStack" : [
+      {"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"},
+      {"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"},
+      {"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"},
+      {"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"},
+      {"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"},
+      {"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"},
+      {"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original-wordmark.svg"},
+      {"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"},
+      {"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"},
+      {"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"},
+      {"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"},
+      {"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"},
+      {"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"},
+      {"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"},
+      {"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"},
+      {"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg"},
+      {"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg"}
+  ],
+    "workExperiences" : [
+      {
+        "id": 9,
+        "period": "Oct 2021 - Present",
+        "company" : "PT Solusi Teknologi Nusantara Nusantech",
+        "role" : "Programmer",
+        "description" : "Start at oct, my position as a Front-end Developer. Mostly JS & TS my program language."
+      },
+      {
+        "id": 8,
+        "period": "Nov 2021 - Jan 2022",
+        "company" : "SMA 2 Kaliwungu",
+        "role" : "Freelance",
+        "description" : "Creat geolocation attendance for teacher. useful tracking teacher position"
+      },
+      {
+        "id": 7,
+        "period": "May - August 2021",
+        "company" : "PT. DOA ANAK DIGITAL (BANGBELI)",
+        "role" : "Internship Frontend Developer",
+        "description" : "Bangbeli.com is a startup in the field of digital payment transactions. In this internship I worked on a slicing design for a website page using reactjs, then made a webview for an android application."
+      },
+      {
+        "id": 6,
+        "period": "June - August 2021",
+        "company" : "BPSDA Pemali Comal (Tegal)",
+        "role" : "Freelance Website Developer",
+        "description" : "Within three months, my team and I worked on the fighter website. Where the website is useful for monitoring the time and ordering of land rentals which are still manual then a system is made."
+      },
+      {
+        "id": 5,
+        "period": "Jan - Maret 2021",
+        "company" : "BPSDA Bodri Kuto (Semarang)",
+        "role" : "Freelance Website Developer",
+        "description" : "Create an APEMASI system to monitor the water flow in each weir, with the weir guard sending SMS to the system then the water flow will be updated, and create a dynamic weir scheme."
+      },
+      {
+        "id": 4,
+        "period": "Nov - December 2020",
+        "company" : "BPSDA Pemali Comal (Tegal)",
+        "role" : "Freelance Website Developer",
+        "description" : "Creating a webview application where initially the dam guard sent SMS was replaced by an application to make it easier if there were problems."
+      }
+      ,
+      {
+        "id": 3,
+        "period": "June - Sept 2020",
+        "company" : "BPSDA Pemali Comal (Tegal)",
+        "role" : "Freelance Website Developer",
+        "description" : "Repair and update the application then add two schemes in the finished system at pemalicomal.com."
+      }
+      ,
+      {
+        "id": 2,
+        "period": "Sept - December 2019",
+        "company" : "BPSDA Pemali Comal (Tegal)",
+        "role" : "Freelance Website Developer",
+        "description" : "Create an APEMASI system to monitor the water flow in each weir, with the weir guard sending SMS to the system then the water flow will be updated, and create a dynamic weir scheme."
+      }
+      ,
+      {
+        "id": 1,
+        "period": "July - Sept 2019",
+        "company" : "Imersa Solusi Teknologi",
+        "role" : "Internship",
+        "description" : "Imersa is an Information Technology and Services company with website design services, application development, and digital marketing.."
+      }
+    ]
+  }
+}

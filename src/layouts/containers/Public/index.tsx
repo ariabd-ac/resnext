@@ -22,19 +22,17 @@ function PublicContainer(props: IProps) {
   }, [Boolean(refHeader.current), Boolean(refFooter.current)])
 
   return (
-    <div>
-      {/* <Header refContent={refHeader} /> */}
-      <div
-        style={{
-          minHeight: `calc(100vh - ${heightHeaderFooter}px)`,
-        }}
-      >
-        <Component {...pageProps} />
-      </div>
-      {/* <Footer refContent={refFooter} /> */}
-
-      <BackTop duration={50} />
+    // <div>
+    <div
+      style={{
+        minHeight: `calc(100vh - ${heightHeaderFooter}px)`,
+      }}
+    >
+      <Component {...pageProps} />
     </div>
+
+    // <BackTop duration={50} />
+    // </div>
   )
 }
 
