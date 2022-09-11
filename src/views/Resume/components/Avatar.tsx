@@ -12,7 +12,7 @@ export default function Avatar() {
             className="rounded-full"
             preview={false}
             style={{ objectFit: 'contain' }}
-            src="https://media-exp2.licdn.com/dms/image/C5603AQGu4-6fmpbfdA/profile-displayphoto-shrink_200_200/0/1628667315488?e=1661990400&v=beta&t=smm1BHtz9nhqGTmSVcLUdelgYHtUKYBmZoKmxlfDJZE"
+            src="https://media-exp1.licdn.com/dms/image/C4E03AQF97ThoHPzTMA/profile-displayphoto-shrink_200_200/0/1658839197481?e=1665014400&v=beta&t=MbPtxMaKj8sPcdwfMWGzYY3vhVSDXz0k_SxSDbuq5UI"
           />
         </Col>
         <Col className="mt-4">
