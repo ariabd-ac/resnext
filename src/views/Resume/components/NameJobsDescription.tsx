@@ -3,19 +3,7 @@
 import { Col, Row, Typography } from 'antd'
 import React from 'react'
 import { GoLocation } from 'react-icons/go'
-// import {
-//   FaCss3Alt,
-//   FaDocker,
-//   FaNodeJs,
-//   FaPhp,
-//   FaReact,
-//   FaYarn,
-// } from 'react-icons/fa'
-// import { FcLinux } from 'react-icons/fc'
-// import { IoLogoJavascript } from 'react-icons/io'
-// import { SiNextdotjs } from 'react-icons/si'
-
-import data from '../../../../public/data/data.json'
+import { MdEmail, MdPermPhoneMsg } from 'react-icons/md'
 
 const { Title } = Typography
 
@@ -52,16 +40,25 @@ export default function NameJobsDescription() {
             Tegal, Central Java, Indonesia
           </Typography.Title>
         </Col>
-        <Col />
       </Row>
-      <Row className="justify-center">
-        <Col
-          style={{ maxWidth: '80%' }}
-          className="flex flex-row flex-1 justify-center flex-wrap mb-4"
-        >
-          {data?.result?.techStack?.map((v: any) => {
-            return <img className="mr-2 mt-2 h-8" src={v?.src} />
-          })}
+      <Row>
+        <Col className="items-center flex-1 flex-row">
+          <Typography.Title
+            level={5}
+            className="text-center text-fontPrimary flex items-center justify-center"
+          >
+            <MdEmail className="mr-4" />
+            ariabghufron@gmail.com
+          </Typography.Title>
+        </Col>
+        <Col className="items-center flex-1 flex-row">
+          <Typography.Title
+            level={5}
+            className="text-center text-fontPrimary flex items-center justify-center"
+          >
+            <MdPermPhoneMsg className="mr-4" />
+            +62 831-1372-9917
+          </Typography.Title>
         </Col>
       </Row>
     </Row>
