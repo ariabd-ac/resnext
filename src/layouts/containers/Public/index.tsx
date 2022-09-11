@@ -1,4 +1,5 @@
 import { BackTop } from 'antd'
+import Head from 'next/head'
 import { ReactComponentLike } from 'prop-types'
 import React, { useEffect, useRef, useState } from 'react'
 
@@ -28,6 +29,10 @@ function PublicContainer(props: IProps) {
         minHeight: `calc(100vh - ${heightHeaderFooter}px)`,
       }}
     >
+      <Head>
+        <title>Ari Abdurrahman Ghufron</title>
+        <meta name="keywords" content="Ari Abdurrahman Ghufron" />
+      </Head>
       <Component {...pageProps} />
     </div>
 

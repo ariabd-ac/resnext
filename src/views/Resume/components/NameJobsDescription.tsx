@@ -9,7 +9,7 @@ const { Title } = Typography
 
 export default function NameJobsDescription() {
   return (
-    <Row className="flex-col flex-1 pt-4 pl-8">
+    <Row className="flex-col flex-1 pt-4 pl-0 lg:pl-8">
       <Row className="flex-col">
         <Col>
           <Title className="text-fontSecondary mb-0" level={2}>
@@ -24,11 +24,11 @@ export default function NameJobsDescription() {
       </Row>
       <Row className="items-center">
         <Col>
-          <Typography.Paragraph className="text-center text-fontPrimary">
+          <Typography.Paragraph className="text-center text-fontPrimary sm:text-justify">
             Hi, i`am Ari a Full Stack developer from Tegal, Indonesia. I build
             web apps and mobile apps that provide intuitive and pixel-perfect
             user interfaces and familiar with React. Every day at work i used TS
-            & Next bug currently, I'am still learning Typescript, Docker etc
+            with Next JS currently, I'am still learning Typescript, Docker etc
           </Typography.Paragraph>
         </Col>
         <Col className="items-center flex-1 flex-row">

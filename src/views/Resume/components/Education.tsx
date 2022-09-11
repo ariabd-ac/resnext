@@ -1,36 +1,35 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import { Col, Row, Typography } from 'antd'
-import { BsPerson } from 'react-icons/bs'
-import { ImOffice } from 'react-icons/im'
+import { FaUniversity, FaUserGraduate } from 'react-icons/fa'
 import { MdOutlineDateRange } from 'react-icons/md'
 import data from '../../../../public/data/data.json'
 
 const { Title } = Typography
 
-export default function WorkExperiences() {
+export default function Education() {
   return (
-    <Row className="flex flex-col">
+    <Row className="flex flex-col w-full">
       <Row className="items-center flex-1">
         <Col>
           <Title className="text-fontSecondary px-4 pt-4" level={4}>
-            WORK EXPERIENCES
+            EDUCATION HISTORY
           </Title>
         </Col>
       </Row>
-      <Row className="px-4">
-        {data?.result?.workExperiences
+      <Row className="px-4 flex-col">
+        {data?.result?.historyEducation
           .sort((a: any, b: any) => b.id - a.id)
           // .slice(0, 5) // enable if you not limit
           .map((d: any) => {
             return (
-              <Row className="flex flex-col" key={d?.role}>
+              <Row className="flex flex-col py-2" key={d?.id}>
                 <Col className="flex items-start">
-                  <ImOffice className="mr-2" size={20} />
+                  <FaUniversity className="mr-2" size={20} />
                   <Title level={5}>{d?.company}</Title>
                 </Col>
                 <Row>
                   <Col className="pr-2 flex items-start">
-                    <BsPerson className="mr-2" size={20} />
+                    <FaUserGraduate className="mr-2" size={20} />
                     <Typography.Text>{d?.role} </Typography.Text>
                   </Col>
                   <Col className="flex items-start">
@@ -38,11 +37,6 @@ export default function WorkExperiences() {
                     <Typography.Text>{d?.period}</Typography.Text>
                   </Col>
                 </Row>
-                <Col>
-                  <Typography.Paragraph className="text-fontPrimary">
-                    {d?.description}
-                  </Typography.Paragraph>
-                </Col>
               </Row>
             )
           })}

@@ -25,7 +25,7 @@
       {"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"},
       {"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg"},
       {"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg"}
-  ],
+    ],
     "workExperiences" : [
       {
         "id": 9,
@@ -92,6 +92,20 @@
         "company" : "Imersa Solusi Teknologi",
         "role" : "Internship",
         "description" : "Imersa is an Information Technology and Services company with website design services, application development, and digital marketing.."
+      }
+    ],
+    "historyEducation" : [
+      {
+        "id": 2,
+        "period": "Oct 2017 - Oct 2021",
+        "company" : "Politeknik Harapan Bersama Tegal",
+        "role" : "D-IV Teknik Informatika"
+      },
+      {
+        "id": 1,
+        "period": "July 2015 - May 2017",
+        "company" : "SMK Bina Nusa Slawi",
+        "role" : "Multimedia"
       }
     ]
   }
